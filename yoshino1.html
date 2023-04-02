@@ -1,0 +1,126 @@
+<DOCTYPE html>
+	<script type="text/javascript">
+		var custNames = new ArrayList();
+		var custEmail = new ArrayList();
+		var custNumber = new ArrayList();
+		var custRoom = new ArrayList();
+		string[roomtype] = {};
+			function callvalue(){
+				var name = document.getElementById("name");
+				var email = document.getElementById("email");
+				var phonenumber = document.getElementById("phonenumber");
+				var date = document.getElementById("date");
+				var roomtype = document.getElementById("roomtype");
+					alert("Submission Sent");
+			}
+		</script>
+	<head>
+		<title>Yoshino Castle</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	<img src="background.png" id="background">
+	<img src="yoshinox.png" id="header">
+	<img src="mapx.png" id="header1">
+	<img src="roomx.png" id="header2">
+	<img src="bookingx.png" id="header3">
+	<img src="questionx.png" id="header4">
+	<header>
+		<img src="logo.png">
+	</header>
+	<hr>
+	<nav>
+		<table cellspacing="0" cellpadding="10">
+	<tr>
+		<td><a href="#sec">Home</a></td>
+		<td><a href="#rooms">Booking</a></td>
+		<td><a href="#questions">Contact Us</a></td>
+	</tr>
+	</table>
+	</nav>
+	<div id="sec">
+		<img src="text.png">
+			<marquee behavior="scroll" direction="left" id="marquee" loop="infinite">
+				<img src="family.png" width="100">
+				<img src="family1.png" width="100">
+				<img src="family2.png" width="100">
+				<img src="family3.png" width="100">
+				<img src="individual.png" width="100">
+				<img src="individual1.png" width="100">
+				<img src="individual2.png" width="100">
+				<img src="individual3.png" width="100">
+				<img src="suite.png" width="100">
+				<img src="suite1.png" width="100">
+				<img src="suite2.png" width="100">
+				<img src="suite3.png" width="100">	
+			</marquee>
+		<div id="about-us">Yoshino Castle is a hotel created to bring you hope. Whether it is travelling or in need of a place to stay, we are here for you. With 3 types of rooms, each amenity is chosen to best provide for you. During times of stress we are there when you walk in, and you know you'll be cared for with a, "Welcome to Yoshino Castle!"</div>
+	</div>
+	<iframe id="iframe"
+	width="400"
+	height="500"
+	frameborder="5"
+	style="border: 0"
+	src="https://maps.googleapis.com/maps/embed/v1/place?key=AIzaSyDeDVrnGNw8to194sOl3CuBgysNoCvJ67o&q=1202 E Palm Ln, Phoenix, AZ 85006&zoom=15" allowfullscreen>
+	</iframe>
+	<div id="rooms">
+		<img src="text.png" id="background5">
+		<nav>
+			<table cellspacing="50" cellpadding="5" id="table1">
+				<td><a href=index.html>Individual</a></td>
+				<td><a href=yoshino1.html>Suite</a></td>
+				<td><a href=yoshino2.html>Family</a></td>
+			</table>
+		</nav>
+		<img src="suite1.png" id="room1">
+		<img src="suite2.png" id="room2">
+		<img src="suite3.png" id="room3">
+		<div id="information">Suite Room <br> <br> Cost: $60/night <br> Beds: 1 queen, 2 futon <br> Amenities: full kitchen, full bathroom, washer/dryer with ironing board, and free WiFi <br><br> We hope you enjoy your stay at Yoshino Castle!</div>
+		</div>
+	<div id="booking">
+		<img src="text.png">
+		<div id="bookingform">
+			<form onsubmit=callvalue()>
+					Name: <input type="text" placeholder="first and last" id="name"><br><br><br>
+					Email Address: <input type="email" placeholder="email address" id="email"><br><br><br>
+					Phone Number: <input type="number" placeholder="number only" id="phonenumber"><br><br><br>
+					Booking Date: <input type="date" id="date"><br><br><br>
+					Room Type: <select name="roomytype" id="roomtype">
+						<option value="individal">Individual</option>
+	
+	
+						<option value="suite">Suite</option>
+	
+	
+						<option value="family">Family</option
+								></select><br><br><br>
+				
+				<input type="submit" value="submit" id="submit">
+			</form>
+		</div>
+	
+	</div>
+	<div id="contact">
+		<img src="contact.png">
+	</div>
+	<div id="logo">
+		<img src="logo.png">
+	</div>
+	<div id="questions">
+		<img src="text.png">
+		<div id="contactform">
+			<form onsubmit="callvalue()">
+				Name: <input type="text" placeholder="first and last" id="name1"><br><br><br>
+				Email Address: <input type="email" placeholder="email address" id="email1"><br><br><br>
+				Phone Number: <input type="number" placeholder="numbers only" id="phonenumber1"><br><br><br>
+				Questions/Comment: <input type="text" id="complaint" placeholder="any questions or comments reguarding our hotel"><br><br><br>
+					<input type="submit" value="submit" id="submit1">
+			</form>
+		</div>
+	</div>
+	<div id="quote">
+	<h2>人生は七転び八起き。転んでもまた立ち上がる。くじけずに前を向いて歩いていこう。</h2>
+	</div>
+	<img src="decor.png" id="decor">
+	<script src="/app.js"></script>
+	</body>

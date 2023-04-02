@@ -1,0 +1,242 @@
+@font-face 
+{
+font-family: "Noteworthy";
+src: url("Noteworthy-Lt.ttf")
+}
+html 
+{
+	overflow-y: scroll; 
+	scroll-behavior: smooth;
+
+}
+header img
+{
+	position: absolute;
+	left: 20px;
+	width: 120px;
+	height: 110px;
+}
+img#background
+{
+	overflow-y: scroll;
+	position: absolute;
+	width: 98%;
+	height: 3850px;
+}
+tr
+{
+	position: absolute;
+	font-size: 20px;
+	left: 130px;
+	top: 45px;
+	padding: 30px;
+	font-family: "Noteworthy";
+}
+#sec
+{
+position: absolute;
+left: 100px;
+top: 175px;
+width: 600px;
+font-family: "Noteworthy";
+}
+#sec img
+{
+position: relative;
+width: 100%;
+height: 410px;
+top: 90px;
+}
+#about-us
+{
+position: absolute;
+font-size: 15px;
+top: 375px;
+left: 60px;
+width: 80%;
+font-family: "Noteworthy";
+}
+#iframe
+{
+position: absolute;
+height: 375px;
+width: 450px;
+left: 175px;
+top: 775px;
+}
+#rooms
+{
+position: absolute;
+top: 1225px;
+left: 100px;
+width: 600px;
+font-family: "Noteworthy";
+}
+#room1
+{
+position: absolute;
+width: 45%;
+height: 150px;
+top: 125px;
+left: 30px;
+}
+#room2
+{
+position: absolute;
+width: 45%;
+height: 150px;
+top: 125px;
+left: 300px;
+}
+#room3
+{
+position: absolute;
+width: 45%;
+height: 150px;
+top: 275px;
+left: 175px;
+}
+#background5
+{
+position: relative;
+top: 50px;
+width: 100%;
+height: 650px;
+}
+#information
+{
+position: absolute;
+left: 50px;
+width: 80%;
+top: 430px;
+font-size: 17px;
+font-family: "Noteworthy";
+}
+#booking
+{
+position: absolute;
+top: 2000px;
+left: 175px;
+width: 450px;
+}
+#booking img
+{
+position: relative;
+width: 100%;
+height: 450px;
+top: 50px;
+}
+#bookingform 
+{
+position: absolute;
+top: 75px;
+left: 75px;
+font-size: 15px;
+font-family: "Noteworthy";
+text-align: center;
+}
+#contact img
+{
+position: absolute;
+top: 2575px;
+left: 140px;
+width: 525px;
+height: 525px;
+}
+#questions
+{
+position: absolute;
+top: 3175px;
+left: 175px;
+width: 450px;
+font-family: "Noteworthy";
+}
+#questions img
+{
+position: relative;
+width: 100%;
+height: 400px;
+top: 50px;
+}
+#contactform
+{
+position: absolute;
+top: 70px;
+font-size: 12px;
+font-family: "Noteworthy";
+text-align: center;
+width: 350px;
+left: 50px;
+}
+#complaint
+{
+width: 350px;
+height: 100px;	
+}
+#marquee
+{
+position: absolute;	
+top: 5px;
+left: 85px;
+height: 350px;
+width: 70%;
+}
+#marquee img
+{
+height: auto;	
+}
+#rooms table
+{
+position: absolute;
+bottom: 610px;
+text-align: center;
+right: 550px;
+}
+#quote
+{
+position: absolute;
+font-size: 25px;
+left: 800px;
+width: 30px;
+top: 160px;
+}
+#header
+{
+position: absolute;
+width: 600px;
+left: 100px;
+top: 190px;
+height: 75px;
+}
+#header1
+{
+position: absolute;
+width: 450px;
+left: 175px;
+top: 725px;
+height: 50px;
+}
+#header2
+{
+position: absolute;
+width: 600px;
+left: 100px;
+top: 1200px;
+height: 80px;
+}
+#header3
+{
+position: absolute;
+width: 450px;
+left: 175px;
+top: 2000px;
+height: 50px;
+}
+#header4
+{
+position: absolute;
+width: 450px;
+left: 175px;
+top: 3175px;
+height: 50px;
+}
