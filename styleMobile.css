@@ -21,7 +21,7 @@ img#background
 	overflow-y: scroll;
 	position: absolute;
 	width: 98%;
-	height: 3850px;
+	height: 2850px;
 }
 tr
 {
@@ -37,7 +37,7 @@ tr
 position: absolute;
 left: 100px;
 top: 175px;
-width: 600px;
+width: 75%;
 font-family: "Noteworthy";
 }
 #sec img
@@ -60,8 +60,8 @@ font-family: "Noteworthy";
 {
 position: absolute;
 height: 375px;
-width: 450px;
-left: 175px;
+width: 40%;
+left: 125px;
 top: 775px;
 }
 #rooms
@@ -115,8 +115,8 @@ font-family: "Noteworthy";
 #booking
 {
 position: absolute;
-top: 2000px;
-left: 175px;
+top: 1350px;
+left: 725px;
 width: 450px;
 }
 #booking img
@@ -138,7 +138,7 @@ text-align: center;
 #contact img
 {
 position: absolute;
-top: 2575px;
+top: 2000px;
 left: 140px;
 width: 525px;
 height: 525px;
@@ -146,8 +146,8 @@ height: 525px;
 #questions
 {
 position: absolute;
-top: 3175px;
-left: 175px;
+top: 2050px;
+left: 700px;
 width: 450px;
 font-family: "Noteworthy";
 }
@@ -195,15 +195,23 @@ right: 550px;
 #quote
 {
 position: absolute;
-font-size: 25px;
-left: 800px;
+font-size: 30px;
+left: 1200px;
 width: 30px;
 top: 160px;
+}
+#decor
+{
+position: absolute;
+width: 300px;
+height: 300px;
+left: 800px;
+top: 800px;
 }
 #header
 {
 position: absolute;
-width: 600px;
+width: 75%;
 left: 100px;
 top: 190px;
 height: 75px;
@@ -211,8 +219,8 @@ height: 75px;
 #header1
 {
 position: absolute;
-width: 450px;
-left: 175px;
+width: 40%;
+left: 125px;
 top: 725px;
 height: 50px;
 }
@@ -228,15 +236,15 @@ height: 80px;
 {
 position: absolute;
 width: 450px;
-left: 175px;
-top: 2000px;
+left: 725px;
+top: 1350px;
 height: 50px;
 }
 #header4
 {
 position: absolute;
 width: 450px;
-left: 175px;
-top: 3175px;
+left: 700px;
+top: 2050px;
 height: 50px;
 }
