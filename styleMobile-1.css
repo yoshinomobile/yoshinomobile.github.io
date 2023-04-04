@@ -67,71 +67,71 @@ top: 1600px;
 #rooms
 {
 position: absolute;
-top: 2100px;
+top: 2300px;
 left: 100px;
-width: 600px;
+width: 75%;
 font-family: "Noteworthy";
 }
 #room1
 {
 position: absolute;
 width: 45%;
-height: 150px;
+height: 200px;
 top: 125px;
-left: 30px;
+left: 75px;
 }
 #room2
 {
 position: absolute;
 width: 45%;
-height: 150px;
+height: 200px;
 top: 125px;
-left: 300px;
+left: 500px;
 }
 #room3
 {
 position: absolute;
 width: 45%;
-height: 150px;
-top: 275px;
-left: 175px;
+height: 200px;
+top: 325px;
+left: 250px;
 }
 #background5
 {
 position: relative;
 top: 50px;
 width: 100%;
-height: 650px;
+height: 800px;
 }
 #information
 {
 position: absolute;
 left: 50px;
 width: 80%;
-top: 430px;
-font-size: 17px;
+top: 525px;
+font-size: 25px;
 font-family: "Noteworthy";
 }
 #booking
 {
 position: absolute;
-top: 1350px;
-left: 725px;
-width: 450px;
+top: 3250px;
+left: 300px;
+width: 50%;
 }
 #booking img
 {
 position: relative;
 width: 100%;
-height: 450px;
+height: 600px;
 top: 50px;
 }
 #bookingform 
 {
 position: absolute;
-top: 75px;
-left: 75px;
-font-size: 15px;
+top: 125px;
+left: 150px;
+font-size: 20px;
 font-family: "Noteworthy";
 text-align: center;
 }
@@ -188,15 +188,15 @@ height: auto;
 #rooms table
 {
 position: absolute;
-bottom: 610px;
+bottom: 900px;
 text-align: center;
-right: 550px;
+right: 875px;
 }
 #quote
 {
 position: absolute;
 font-size: 68px;
-left: 900px;
+left: 950px;
 width: 30px;
 top: 400px;
 }
