@@ -27,7 +27,7 @@ tr
 {
 	position: absolute;
 	font-size: 30px;
-	left: 300px;
+	left: 275px;
 	top: 250px;
 	padding: 30px;
 	font-family: "Noteworthy";
@@ -59,7 +59,7 @@ font-family: "Noteworthy";
 #iframe
 {
 position: absolute;
-height: 550px;
+height: 540px;
 width: 60%;
 left: 175px;
 top: 1700px;
@@ -130,7 +130,7 @@ top: 50px;
 {
 position: absolute;
 top: 150px;
-left: 275px;
+left: 250px;
 font-size: 20px;
 font-family: "Noteworthy";
 text-align: center;
@@ -166,7 +166,7 @@ font-size: 20px;
 font-family: "Noteworthy";
 text-align: center;
 width: 350px;
-left: 250px;
+left: 225px;
 }
 #complaint
 {
@@ -190,13 +190,13 @@ height: auto;
 position: absolute;
 bottom: 1025px;
 text-align: center;
-right: 975px;
+right: 950px;
 }
 #quote
 {
 position: absolute;
 font-size: 68px;
-left: 950px;
+left: 985px;
 width: 30px;
 top: 400px;
 }
