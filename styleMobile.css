@@ -59,9 +59,9 @@ font-family: "Noteworthy";
 #iframe
 {
 position: absolute;
-height: 375px;
-width: 50%;
-left: 125px;
+height: 500px;
+width: 60%;
+left: 150px;
 top: 1600px;
 }
 #rooms
@@ -196,17 +196,9 @@ right: 550px;
 {
 position: absolute;
 font-size: 68px;
-left: 800px;
+left: 900px;
 width: 30px;
 top: 400px;
-}
-#decor
-{
-position: absolute;
-width: 300px;
-height: 300px;
-left: 800px;
-top: 800px;
 }
 #header
 {
@@ -219,9 +211,9 @@ height: 150px;
 #header1
 {
 position: absolute;
-width: 40%;
-left: 125px;
-top: 1550px;
+width: 60%;
+left: 150px;
+top: 1500px;
 height: 100px;
 }
 #header2
